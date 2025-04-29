@@ -24,16 +24,14 @@ function getEndpoints(deviceAddress, endpoints)
   // temperatura, mientras que el segundo es un sensor de dióxido de carbono.
 
    var t = endpoints.addEndpoint("1", "Turbiedad ", endpointType.genericSensor);
-   t.variableTypeId = 1347;
+   t.variableTypeId = 1045;
    endpoints.addEndpoint("2", "Temperatura", endpointType.temperatureSensor);
    var o = endpoints.addEndpoint("3", "Oxigeno ", endpointType.genericSensor);
-   o.variableTypeId = 1348;
+   o.variableTypeId = 1046;
    var s = endpoints.addEndpoint("4", "Salinidad ", endpointType.genericSensor);
-   s.variableTypeId = 1349
+   s.variableTypeId = 1047
    var p = endpoints.addEndpoint("5", "PH ", endpointType.genericSensor);
-   p.variableTypeId = 1350;
-
-
+   p.variableTypeId = 1048;
 
 }
 
